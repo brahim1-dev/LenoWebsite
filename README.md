@@ -25,11 +25,12 @@ Styles are defined in `css/styles.css` and scripts in `js/script.js`.
 The site includes an image that becomes visible or animates when the user scrolls
 the page. To use this feature:
 
-1. Place your image file in the `images/` directory.
+1. Place your image file in the `images/` directory. For example, `images/screenshot-1.png`.
 2. Add an `<img>` element in the HTML where you want it to appear, for example:
    ```html
-   <img id="scroll-image" src="images/my-picture.jpg" alt="Description" />
+   <img id="scroll-image" src="images/screenshot-1.png" alt="Screenshot" />
    ```
+   ![Screenshot example](images/screenshot-1.png)
 3. Implement a scroll listener in `js/script.js` that toggles a CSS class when
    the image comes into view. See the sample code below:
    ```js
