@@ -1,0 +1,6 @@
+[build]
+  # Publish directory: site root (index.html lives here)
+  publish = "."
+
+  # No build command required for this simple static site
+  command = ""
